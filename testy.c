@@ -15,6 +15,6 @@ eliminacja_gauss(n,macierz);
 pierwiastki_gauss(n,macierz,pierwiastki);
 printf("pierwiastki ukladu rownan\n");
 for(int i=0;i<n;i++){
-  printf("x%d=%8.2f\n",i+1,pierwiastki[i]);}
+  printf("x%d=%3.2f\n",i+1,pierwiastki[i]);}
 return 0;
 }
