@@ -9,7 +9,7 @@ void eliminacja_gauss(int n,double macierz[n][n+1]){
     macierz[k][j]-=coef*macierz[i][j];
     }
 }
-printf("krok %d\n",i+1);
+printf("krok %d\n",j+1);
 macierz_gauss(n,macierz);  
 }
 }
